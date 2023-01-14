@@ -1,9 +1,20 @@
 # monorepo-playground3
 
-## Stack
-- Yarn
+Monorepo playground 3
+
+## Stack/Features
+
+- Goto definition
+- Yarn 2+ (Berry)
+  - yarn.build plugin
+
+## Commands (root)
+
+- `yarn workspaces foreach run clean`
+- `yarn build`
 
 ## Resources
+
 - https://github.com/NiGhTTraX/ts-monorepo
 - https://github.com/unlight/monorepo-playground2
 - https://github.com/unlight/monorepo-playground

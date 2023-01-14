@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "clean": "rm -rf ./dist",
-    "build": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "yarn build"
+    "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@monorepo-playground3/foo": "~1.0.0"

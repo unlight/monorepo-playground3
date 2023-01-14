@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "paths": {
       "@monorepo-playground3/components/*": ["packages/components/src/*"],
-      "@monorepo-playground3/*": ["packages/*/src"]
+      "@monorepo-playground3/*": ["libs/*/src"]
     },
     "noEmit": true
   }

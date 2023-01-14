@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "clean": "rm -rf ./dist",
-    "build": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "yarn run build"
+    "build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "typescript": "^4.9.0"
