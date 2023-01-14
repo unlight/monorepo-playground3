@@ -7,11 +7,13 @@ Monorepo playground 3
 - Goto definition
 - Yarn 2+ (Berry)
   - yarn.build plugin
+  - yarn-up-all plugin
 
 ## Commands (root)
 
 - `yarn workspaces foreach run clean`
 - `yarn build`
+- `yarn up-all`
 
 ## Resources
 
