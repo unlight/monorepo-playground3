@@ -5,6 +5,23 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@monorepo-playground3/bar@workspace:libs/bar":
+  version: 0.0.0-use.local
+  resolution: "@monorepo-playground3/bar@workspace:libs/bar"
+  dependencies:
+    "@monorepo-playground3/foo": ~1.0.0
+    typescript: ^4.9.0
+  languageName: unknown
+  linkType: soft
+
+"@monorepo-playground3/foo@workspace:libs/foo, @monorepo-playground3/foo@~1.0.0":
+  version: 0.0.0-use.local
+  resolution: "@monorepo-playground3/foo@workspace:libs/foo"
+  dependencies:
+    typescript: ^4.9.0
+  languageName: unknown
+  linkType: soft
+
 "monorepo-playground3@workspace:.":
   version: 0.0.0-use.local
   resolution: "monorepo-playground3@workspace:."
@@ -23,7 +40,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.9.4":
+"typescript@npm:^4.9.0, typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -33,7 +50,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.9.0#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
   bin:
