@@ -15,6 +15,10 @@ Monorepo playground 3
 - `yarn build`
 - `yarn up-all`
 
+## Todo
+
+- Add backend and frontend apps
+
 ## Resources
 
 - https://yarnpkg.com/features/release-workflow
@@ -23,6 +27,7 @@ Monorepo playground 3
 - https://github.com/unlight/monorepo-playground
 - https://github.com/ojkelly/yarn.build
 - https://github.com/Dcard/yarn-plugins/tree/master/packages/changed
+- https://github.com/Dcard/yarn-plugins/tree/master/packages/docker-build
 - https://github.com/e5mode/yarn-up-all
 - https://github.com/alitnk/nestjs-prisma-monorepo
 - https://github.com/saseungmin/yarn-berry-example
