@@ -1,7 +1,7 @@
 {
   "name": "monorepo-playground3",
   "private": true,
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@3.8.0",
   "workspaces": [
     "apps/*",
     "libs/*"
